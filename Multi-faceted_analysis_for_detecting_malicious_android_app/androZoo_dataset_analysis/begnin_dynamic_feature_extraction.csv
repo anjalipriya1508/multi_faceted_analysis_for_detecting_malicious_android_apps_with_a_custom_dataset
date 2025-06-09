@@ -1,0 +1,4 @@
+file_name,used_sendTextMessage,used_requestNetwork,has_fatal_exception,activity_started,read_contacts,write_file,access_location
+com_instagram_lite,0,0,0,0,1,1,1
+com_facebook_katana,0,0,0,0,1,1,1
+com_whatsapp,0,0,0,0,1,1,1
