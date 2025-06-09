@@ -1,0 +1,323 @@
+--------- beginning of main
+06-06 05:39:00.015 D/WifiConfigStore( 1954): Writing to stores completed in 54 ms.
+06-06 05:39:00.017 I/PasspointManager( 1954): No app ops listener found for com.microsoft.office.excel
+06-06 05:39:00.022 I/MediaProvider( 3093): Begin Intent { act=android.intent.action.PACKAGE_FULLY_REMOVED dat=package:com.microsoft.office.excel flg=0x5000010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+06-06 05:39:00.028 I/Finsky  ( 5919): [325] AIM: Got app ownership map. App counts: 1. Unique apps: 1
+06-06 05:39:00.028 I/Finsky  ( 5919): [325] AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=1, cacheMissCount=0. Missed  in cache (limit 10) : []
+06-06 05:39:00.051 I/Finsky  ( 5919): [480] SCH: Received scheduling request: Id: 12-1, Constraints: [{ L: 15000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+06-06 05:39:00.057 I/Finsky  ( 5919): [2] adrw - Received: android.intent.action.PACKAGE_FULLY_REMOVED, [teW78crw4yMKFmGpXwCjLQjHsUFPtXwkTjjT0uLTZXI]
+06-06 05:39:00.059 I/Finsky  ( 5919): [2] adrw - Deduping intent android.intent.action.PACKAGE_FULLY_REMOVED
+06-06 05:39:00.060 W/Finsky  ( 5919): [2] STU: Failed to get storage stats for package 'com.microsoft.office.excel' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+06-06 05:39:00.073 W/BestClock( 1954): java.time.DateTimeException: Missing NTP fix
+06-06 05:39:00.073 W/BestClock( 1954): java.time.DateTimeException: Missing NTP fix
+06-06 05:39:00.076 I/Finsky  ( 5919): [307] RECEIVER_PACKAGE_MONITOR#logWorkEndAndFinishGoAsync: SUCCESS
+06-06 05:39:00.080 I/Finsky  ( 5919): [309] SCH: Received scheduling request: Id: 37-50, Constraints: [{ L: 0, D: 0, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }]
+06-06 05:39:00.135 E/Finsky  ( 5919): [335] [Counters] attempted to use a non-positive increment for: 4753
+06-06 05:39:00.135 I/Finsky  ( 5919): [335] AIM: Got app ownership map. App counts: . Unique apps: 0
+06-06 05:39:00.135 E/Finsky  ( 5919): [335] [Counters] attempted to use a non-positive increment for: 4752
+06-06 05:39:00.143 I/Finsky:background( 4074): [2] adrl - Received: android.intent.action.PACKAGE_FULLY_REMOVED, [teW78crw4yMKFmGpXwCjLQjHsUFPtXwkTjjT0uLTZXI]
+06-06 05:39:00.149 I/Finsky:background( 4074): [2] Package no longer installed: com.microsoft.office.excel
+06-06 05:39:00.155 E/Finsky  ( 5919): [325] [Counters] attempted to use a non-positive increment for: 4753
+06-06 05:39:00.156 I/Finsky:background( 4074): [2] adrl - Deduping intent android.intent.action.PACKAGE_FULLY_REMOVED
+06-06 05:39:00.160 I/Finsky:background( 4074): [271] RECEIVER_PACKAGE_MONITOR_BACKGROUND#logWorkEndAndFinishGoAsync: SUCCESS
+06-06 05:39:00.164 I/Finsky:background( 4074): [397] Frosting DB delete succeeded: true
+06-06 05:39:00.178 I/Finsky:background( 4074): [397] Frosting DB delete succeeded: false
+06-06 05:39:00.179 I/Finsky:background( 4074): [397] Frosting DB delete succeeded: false
+06-06 05:39:00.192 I/Finsky  ( 5919): [325] AIM: AppInfoManager-Perf > ItemModel > CacheSize=5, cacheHitCount=0, cacheMissCount=1, total appsWithNoServerDataCount=1. Missed  in cache (limit 10) : [com.microsoft.office.excel]
+06-06 05:39:00.201 I/Finsky  ( 5919): [335] AIM: AppInfoManager-Perf > ItemModel > CacheSize=5, cacheHitCount=1, cacheMissCount=0, total appsWithNoServerDataCount=1. Missed  in cache (limit 10) : []
+06-06 05:39:00.229 W/android.vendin( 5919): Long monitor contention with owner bgExecutor #2 (5970) at void nsi.k(java.lang.Object)(PG:42) waiters=0 in boolean nsc.i(java.lang.Exception) for 299ms
+06-06 05:39:00.233 I/Finsky  ( 5919): [325] AIM: AppInfoManager-Perf > ItemModel > ItemStore Called 1 apps cacheOptions = REFRESH_LOCAL_CACHE
+06-06 05:39:00.292 I/Finsky  ( 5919): [325] AIM: ItemModel fetch - unauth(0), auth([vgEkZLxWmveLKdEZaH588DAJ1Gr8IQtoKU0YzDbytvY]->1)
+06-06 05:39:00.300 I/MediaProvider( 3093): End Intent { act=android.intent.action.PACKAGE_FULLY_REMOVED dat=package:com.microsoft.office.excel flg=0x5000010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+06-06 05:39:00.311 D/KeyguardClockSwitch( 2195): Updating clock: 539
+06-06 05:39:00.318 I/Finsky  ( 5919): [319] SCH: Scheduling phonesky job Id: 37-50, CT: 1749188340080, Constraints: [{ L: 0, D: 0, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }, { L: 0, D: 0, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }]
+06-06 05:39:00.359 E/Finsky  ( 5919): [325] [Counters] attempted to use a non-positive increment for: 4751
+06-06 05:39:00.359 I/Finsky  ( 5919): [325] AIM: AppInfoManager-Perf > getApps > data collection finished
+06-06 05:39:00.359 I/Finsky  ( 5919): [325] AIM: AppInfoManager-Perf > maybeDestroyAppInfoManager is called. actives = 0
+06-06 05:39:00.373 I/Finsky  ( 5919): [325] SCH: Scheduling 1 system job(s)
+06-06 05:39:00.374 I/Finsky  ( 5919): [325] SCH: Scheduling system job Id: 9167, L: 0, D: 0, C: false, I: false, N: 0
+06-06 05:39:00.374 I/Finsky:background( 4074): [267] RECEIVER_ENGAGE_PACKAGE_CHANGED#logWorkEndAndFinishGoAsync: SUCCESS
+06-06 05:39:00.399 I/Finsky  ( 5919): [2] SCH: job service start with id 9167.
+06-06 05:39:00.410 I/Finsky  ( 5919): [332] SCH: Scheduling phonesky job Id: 12-1, CT: 1749188340051, Constraints: [{ L: 15000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+06-06 05:39:00.422 I/Finsky  ( 5919): [480] SCH: Satisfied jobs for 9167 are: 37-50
+06-06 05:39:00.423 I/Finsky  ( 5919): [488] SCH: Job 37-50 starting
+06-06 05:39:00.426 I/Finsky  ( 5919): [2] Received an install/uninstall event for package com.microsoft.office.excel with replacing being false
+06-06 05:39:00.430 I/Finsky  ( 5919): [2] SCH: jobFinished: 37-50. TimeElapsed: 5ms.
+06-06 05:39:00.430 I/Finsky  ( 5919): [335] SCH: Scheduling 1 system job(s)
+06-06 05:39:00.430 I/Finsky  ( 5919): [335] SCH: Scheduling system job Id: 9169, L: 14621, D: 45894670, C: false, I: false, N: 1
+06-06 05:39:00.434 I/Finsky  ( 5919): [319] Not an active Cubes user. Ignoring package install/uninstall event.
+06-06 05:39:00.455 I/Finsky  ( 5919): [316] [ContentSync] finished, scheduled=true
+06-06 05:39:00.467 I/droid.launcher( 2493): Background concurrent copying GC freed 10943(567KB) AllocSpace objects, 3(208KB) LOS objects, 49% free, 3852KB/7704KB, paused 12us total 1.743s
+06-06 05:39:00.469 I/droid.launcher( 2493): WaitForGcToComplete blocked ProfileSaver on ProfileSaver for 539.127ms
+06-06 05:39:00.505 I/Finsky  ( 5919): [319] SCH: Scheduling phonesky job Id: 26-1414141414, CT: 1749187448578, Constraints: [{ L: 43200000, D: 44100000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }]
+06-06 05:39:00.505 I/Finsky  ( 5919): [319] SCH: Scheduling phonesky job Id: 50-1029, CT: 1749188162017, Constraints: [{ L: 85690080, D: 87490080, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }]
+06-06 05:39:00.521 I/Finsky  ( 5919): [325] SCH: Scheduling 1 system job(s)
+06-06 05:39:00.521 I/Finsky  ( 5919): [325] SCH: Scheduling system job Id: 9176, L: 42308057, D: 43208057, C: false, I: false, N: 0
+06-06 05:39:00.538 I/Finsky  ( 5919): [488] SCH: job service finished with id 9167.
+06-06 05:39:00.591 I/Finsky:background( 4074): [268] adrl - recording uninstall for com.microsoft.office.excel on [vgEkZLxWmveLKdEZaH588DAJ1Gr8IQtoKU0YzDbytvY]
+06-06 05:39:00.668 D/BoundBrokerSvc( 2903): onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+06-06 05:39:00.668 D/BoundBrokerSvc( 2903): Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+06-06 05:39:00.717 I/Fitness ( 2173): FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_REMOVED [CONTEXT service_id=17 ]
+06-06 05:39:00.781 I/Blockstore( 2903): [DataStoreImpl] Clearing all the restore credential for 1 packages [CONTEXT service_id=258 ]
+06-06 05:39:00.783 W/Blockstore( 2903): [DataStoreImpl] Does not contain gms package key space. [CONTEXT service_id=258 ]
+06-06 05:39:00.813 I/Blockstore( 2903): [PackageIntentOperation] Deleted restore credential for package com.microsoft.office.excel is successful: true [CONTEXT service_id=258 ]
+06-06 05:39:00.843 D/Launcher.Model( 2493): package removed received com.microsoft.office.excel
+06-06 05:39:00.846 D/PackageUpdatedTask( 2493): Removing app iconcom.microsoft.office.excel
+06-06 05:39:00.855 I/Blockstore( 2903): [DataStoreImpl] Clearing all the Blockstore Data for package com.microsoft.office.excel [CONTEXT service_id=258 ]
+06-06 05:39:00.857 I/Blockstore( 2903): [DataStoreImpl] Clearing all the Blockstore Data for 1 packages [CONTEXT service_id=258 ]
+06-06 05:39:00.861 I/Blockstore( 2903): [DataStoreImpl] Allow listed package: com.sec.android.easyMover [CONTEXT service_id=258 ]
+06-06 05:39:00.861 I/Blockstore( 2903): [DataStoreImpl] Allow listed package: com.google.android.gms [CONTEXT service_id=258 ]
+06-06 05:39:00.861 I/Blockstore( 2903): [DataStoreImpl] Allow listed package: com.osp.app.signin [CONTEXT service_id=258 ]
+06-06 05:39:00.861 I/Blockstore( 2903): [DataStoreImpl] Allow listed package: com.samsung.android.app.telephonyui [CONTEXT service_id=258 ]
+06-06 05:39:00.861 I/Blockstore( 2903): [DataStoreImpl] Allow listed package: com.samsung.android.scloud [CONTEXT service_id=258 ]
+06-06 05:39:00.861 I/Blockstore( 2903): [DataStoreImpl] Removing Blockstore data for packages [com.microsoft.office.excel] [CONTEXT service_id=258 ]
+06-06 05:39:00.917 I/Icing   ( 2903): doRemovePackageData com.microsoft.office.excel
+06-06 05:39:00.923 W/SQLiteLog( 2903): (28) double-quoted string literal: "com.microsoft.office.excel"
+06-06 05:39:00.964 I/Icing   ( 2903): IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36
+06-06 05:39:00.968 D/BoundBrokerSvc( 2903): onBind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+06-06 05:39:00.968 D/BoundBrokerSvc( 2903): Loading bound service for intent: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+06-06 05:39:00.975 D/ModelWriter( 2493): removing items from db 
+06-06 05:39:00.975 D/ModelWriter( 2493): java.lang.Exception
+06-06 05:39:00.975 D/ModelWriter( 2493): 	at com.android.launcher3.model.ModelWriter.deleteItemsFromDatabase(ModelWriter.java:272)
+06-06 05:39:00.975 D/ModelWriter( 2493): 	at com.android.launcher3.model.ModelWriter.deleteItemsFromDatabase(ModelWriter.java:262)
+06-06 05:39:00.975 D/ModelWriter( 2493): 	at com.android.launcher3.model.BaseModelUpdateTask.deleteAndBindComponentsRemoved(BaseModelUpdateTask.java:111)
+06-06 05:39:00.975 D/ModelWriter( 2493): 	at com.android.launcher3.model.PackageUpdatedTask.execute(PackageUpdatedTask.java:323)
+06-06 05:39:00.975 D/ModelWriter( 2493): 	at com.android.launcher3.model.BaseModelUpdateTask.run(BaseModelUpdateTask.java:67)
+06-06 05:39:00.975 D/ModelWriter( 2493): 	at android.os.Handler.handleCallback(Handler.java:938)
+06-06 05:39:00.975 D/ModelWriter( 2493): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-06 05:39:00.975 D/ModelWriter( 2493): 	at android.os.Looper.loop(Looper.java:223)
+06-06 05:39:00.975 D/ModelWriter( 2493): 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-06 05:39:01.064 I/Icing   ( 2903): IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30
+06-06 05:39:01.080 I/Icing   ( 2903): Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+06-06 05:39:01.094 I/Icing   ( 2903): Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+06-06 05:39:01.096 I/Icing   ( 2903): Indexing com.google.android.gms-apps from com.google.android.gms
+06-06 05:39:01.100 I/Icing   ( 2903): Indexing done com.google.android.gms-apps
+06-06 05:39:01.124 I/gle.android.gm( 2903): Background concurrent copying GC freed 34213(1925KB) AllocSpace objects, 9(304KB) LOS objects, 43% free, 30MB/54MB, paused 22us total 2.469s
+06-06 05:39:01.124 I/gle.android.gm( 2903): WaitForGcToComplete blocked ProfileSaver on HeapTrim for 1.498s
+06-06 05:39:01.145 W/gle.android.gm( 2903): Profile data size exceeds 500000 bytes. It has 605571 bytes.
+06-06 05:39:01.722 I/OpenGLRenderer( 2195): Davey! duration=1480ms; Flags=0, IntendedVsync=908775232377, Vsync=908791899043, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=908797115557, AnimationStart=908797115890, PerformTraversalsStart=908797116057, DrawStart=908822772182, SyncQueued=908833646807, SyncStart=908847425349, IssueDrawCommandsStart=908854625474, SwapBuffers=910158613474, FrameCompleted=910269843933, DequeueBufferDuration=329583, QueueBufferDuration=1846292, GpuCompleted=105528687924, 
+06-06 05:39:01.807 I/Finsky  ( 5919): [332] AIM: AppInfoManager-Perf > Destroying AppInfoManager ...
+06-06 05:39:02.792 I/Thread-155( 2173): type=1400 audit(0.0:213): avc: denied { call } for scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:r:hal_memtrack_default:s0 tclass=binder permissive=1 app=com.google.android.gms
+06-06 05:39:03.012 I/OpenGLRenderer( 2493): Davey! duration=2020ms; Flags=0, IntendedVsync=909541899013, Vsync=909541899013, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=909542155558, AnimationStart=909542156558, PerformTraversalsStart=909542156724, DrawStart=909552507016, SyncQueued=909554167391, SyncStart=909556301516, IssueDrawCommandsStart=909556812683, SwapBuffers=910199761099, FrameCompleted=911564771933, DequeueBufferDuration=53584, QueueBufferDuration=382042, GpuCompleted=734513543641, 
+06-06 05:39:05.370 I/abb     ( 6264): StartCommandInProcess(73657474696e67730067657400676c6f settings.get.glo [truncated])
+06-06 05:39:05.376 I/abb     ( 6264): StartCommandInProcess(7061636b61676500696e7374616c6c2d package.install- [truncated])
+06-06 05:39:05.376 I/abb     ( 6264): oneway function results will be dropped but finished with status OK and parcel size 4
+06-06 05:39:05.380 I/abb     ( 6264): oneway function results will be dropped but finished with status OK and parcel size 4
+06-06 05:39:05.381 I/abb     ( 6264): StartCommandInProcess(7061636b61676500696e7374616c6c2d package.install- [truncated])
+06-06 05:39:06.424 W/BestClock( 1954): java.time.DateTimeException: Missing NTP fix
+06-06 05:39:06.444 W/BestClock( 1954): java.time.DateTimeException: Missing NTP fix
+06-06 05:39:06.507 W/BestClock( 1954): java.time.DateTimeException: Missing NTP fix
+06-06 05:39:06.608 W/BestClock( 1954): java.time.DateTimeException: Missing NTP fix
+06-06 05:39:06.609 W/BestClock( 1954): java.time.DateTimeException: Missing NTP fix
+06-06 05:39:07.001 I/abb     ( 6264): oneway function results will be dropped but finished with status OK and parcel size 4
+06-06 05:39:07.002 I/abb     ( 6264): StartCommandInProcess(7061636b61676500696e7374616c6c2d package.install- [truncated])
+--------- beginning of system
+06-06 05:39:07.117 W/PackageParsing( 1954): Ignoring duplicate uses-permissions/uses-permissions-sdk-m: android.permission.ACCESS_MEDIA_LOCATION in package: com.facebook.katana at: Binary XML file line #89
+06-06 05:39:07.117 W/PackageParsing( 1954): Ignoring duplicate uses-permissions/uses-permissions-sdk-m: android.permission.NFC in package: com.facebook.katana at: Binary XML file line #175
+06-06 05:39:07.118 W/PackageParsing( 1954): Ignoring duplicate uses-permissions/uses-permissions-sdk-m: com.google.android.gms.permission.AD_ID in package: com.facebook.katana at: Binary XML file line #245
+06-06 05:39:07.121 W/PackageParsing( 1954): Unknown element under <application>: property at /data/app/vmdl1832677339.tmp/base.apk Binary XML file line #704
+06-06 05:39:07.124 W/PackageParsing( 1954): Unknown element under <application>: enable-feature at /data/app/vmdl1832677339.tmp/base.apk Binary XML file line #2720
+06-06 05:39:07.132 W/RuleEvaluation( 1954): Integrity rule files are not available.
+06-06 05:39:07.133 I/PackageManager( 1954): Integrity check passed for file:///data/app/vmdl1832677339.tmp
+06-06 05:39:07.144 W/PackageParsing( 1954): Ignoring duplicate uses-permissions/uses-permissions-sdk-m: android.permission.ACCESS_MEDIA_LOCATION in package: com.facebook.katana at: Binary XML file line #89
+06-06 05:39:07.144 W/PackageParsing( 1954): Ignoring duplicate uses-permissions/uses-permissions-sdk-m: android.permission.NFC in package: com.facebook.katana at: Binary XML file line #175
+06-06 05:39:07.144 W/PackageParsing( 1954): Ignoring duplicate uses-permissions/uses-permissions-sdk-m: com.google.android.gms.permission.AD_ID in package: com.facebook.katana at: Binary XML file line #245
+06-06 05:39:07.146 W/PackageParsing( 1954): Unknown element under <application>: property at /data/app/vmdl1832677339.tmp/base.apk Binary XML file line #704
+06-06 05:39:07.150 W/PackageParsing( 1954): Unknown element under <application>: enable-feature at /data/app/vmdl1832677339.tmp/base.apk Binary XML file line #2720
+06-06 05:39:07.181 D/CompatibilityChangeReporter( 1954): Compat change id reported: 135549675; UID 10548; state: ENABLED
+06-06 05:39:07.181 I/PackageManager( 1954): Permission ownership changed. Updating all permissions.
+06-06 05:39:07.246 V/StorageManagerService( 1954): Package null does not have legacy storage
+06-06 05:39:07.250 I/MediaProvider( 3093): Invalidating LocalCallingIdentity cache for package com.facebook.katana. Reason: op android:read_external_storage
+06-06 05:39:07.251 I/chatty  ( 3093): uid=10128(com.android.providers.media.module) Binder:3093_3 identical 2 lines
+06-06 05:39:07.251 I/MediaProvider( 3093): Invalidating LocalCallingIdentity cache for package com.facebook.katana. Reason: op android:read_external_storage
+06-06 05:39:07.267 I/PackageDexOptimizer( 1954): Running dexopt (dexoptNeeded=1) on: /data/app/~~oXyMYmQU4_Eldr57e3lHmA==/com.facebook.katana-Uko5PL-OI0ajSAVZhVz6ng==/base.apk pkg=com.facebook.katana isa=arm64 dexoptFlags=boot_complete,profile_guided,public,enable_hidden_api_checks targetFilter=speed-profile oatDir=/data/app/~~oXyMYmQU4_Eldr57e3lHmA==/com.facebook.katana-Uko5PL-OI0ajSAVZhVz6ng==/oat classLoaderContext=PCL[]{PCL[/system/framework/org.apache.http.legacy.jar]}
+06-06 05:39:07.271 V/installd( 1810): DexInv: --- BEGIN '/data/app/~~oXyMYmQU4_Eldr57e3lHmA==/com.facebook.katana-Uko5PL-OI0ajSAVZhVz6ng==/base.apk' ---
+06-06 05:39:07.274 E/installd( 6413): execv(/apex/com.android.art/bin/dex2oat32) failed: Exec format error
+06-06 05:39:07.275 V/installd( 1810): DexInv: --- END '/data/app/~~oXyMYmQU4_Eldr57e3lHmA==/com.facebook.katana-Uko5PL-OI0ajSAVZhVz6ng==/base.apk' --- status=0x4800, process failed
+06-06 05:39:07.275 E/installd( 1810): Dex2oat invocation for /data/app/~~oXyMYmQU4_Eldr57e3lHmA==/com.facebook.katana-Uko5PL-OI0ajSAVZhVz6ng==/base.apk failed: exec(dex2oat) (18432)
+06-06 05:39:07.276 W/PackageDexOptimizer( 1954): Failed to dexopt
+06-06 05:39:07.276 W/PackageDexOptimizer( 1954): com.android.server.pm.Installer$InstallerException: android.os.ServiceSpecificException: Dex2oat invocation for /data/app/~~oXyMYmQU4_Eldr57e3lHmA==/com.facebook.katana-Uko5PL-OI0ajSAVZhVz6ng==/base.apk failed: exec(dex2oat) (code 18432)
+06-06 05:39:07.276 W/PackageDexOptimizer( 1954): 	at com.android.server.pm.Installer.dexopt(Installer.java:387)
+06-06 05:39:07.276 W/PackageDexOptimizer( 1954): 	at com.android.server.pm.PackageDexOptimizer.dexOptPath(PackageDexOptimizer.java:302)
+06-06 05:39:07.276 W/PackageDexOptimizer( 1954): 	at com.android.server.pm.PackageDexOptimizer.performDexOptLI(PackageDexOptimizer.java:251)
+06-06 05:39:07.276 W/PackageDexOptimizer( 1954): 	at com.android.server.pm.PackageDexOptimizer.performDexOpt(PackageDexOptimizer.java:153)
+06-06 05:39:07.276 W/PackageDexOptimizer( 1954): 	at com.android.server.pm.PackageManagerService.executePostCommitSteps(PackageManagerService.java:17079)
+06-06 05:39:07.276 W/PackageDexOptimizer( 1954): 	at com.android.server.pm.PackageManagerService.installPackagesLI(PackageManagerService.java:16925)
+06-06 05:39:07.276 W/PackageDexOptimizer( 1954): 	at com.android.server.pm.PackageManagerService.installPackagesTracedLI(PackageManagerService.java:16238)
+06-06 05:39:07.276 W/PackageDexOptimizer( 1954): 	at com.android.server.pm.PackageManagerService.lambda$processInstallRequestsAsync$22$PackageManagerService(PackageManagerService.java:14404)
+06-06 05:39:07.276 W/PackageDexOptimizer( 1954): 	at com.android.server.pm.-$$Lambda$PackageManagerService$9znobjOH7ab0F1jsW2oFdNipS-8.run(Unknown Source:6)
+06-06 05:39:07.276 W/PackageDexOptimizer( 1954): 	at android.os.Handler.handleCallback(Handler.java:938)
+06-06 05:39:07.276 W/PackageDexOptimizer( 1954): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-06 05:39:07.276 W/PackageDexOptimizer( 1954): 	at android.os.Looper.loop(Looper.java:223)
+06-06 05:39:07.276 W/PackageDexOptimizer( 1954): 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-06 05:39:07.276 W/PackageDexOptimizer( 1954): 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+06-06 05:39:07.277 V/BackupManagerService( 1954): [UserID:0] restoreAtInstall pkg=com.facebook.katana token=6 restoreSet=0
+06-06 05:39:07.278 V/BackupManagerService( 1954): [UserID:0] Finishing install immediately
+06-06 05:39:07.298 I/IntentFilterIntentOp( 2903): Verifying IntentFilter. verificationId:4 scheme:"https" hosts:"web.facebook.com p.facebook.com m.prod.facebook.com m.fb.watch m.alpha.facebook.com x.facebook.com www.m.me mbasic.facebook.com fb.com m.beta.facebook.com mbasic.prod.facebook.com facebook.com free.facebook.com m.facebook.com www.fb.audio www.fb.watch fb.audio fb.watch mtouch.facebook.com mobile.facebook.com m.me fb.gg fb.me mbasic.alpha.facebook.com www.alpha.facebook.com m.fbwat.ch www.fb.gg www.fb.me mbasic.beta.facebook.com work.meta.com www.prod.facebook.com www.facebook.com www.beta.facebook.com touch.facebook.com www.fbwat.ch familycenter.facebook.com" package:"com.facebook.katana". [CONTEXT service_id=244 ]
+06-06 05:39:07.299 E/installd( 1810): Couldn't opendir /data/app/vmdl1832677339.tmp: No such file or directory
+06-06 05:39:07.299 E/installd( 1810): Failed to delete /data/app/vmdl1832677339.tmp: No such file or directory
+06-06 05:39:07.300 I/abb     ( 6264): oneway function results will be dropped but finished with status OK and parcel size 4
+06-06 05:39:07.303 I/AppLinksUtilsV1( 2903): Legacy cross-profile verification enabled [CONTEXT service_id=244 ]
+06-06 05:39:07.308 I/MediaProvider( 3093): Invalidating LocalCallingIdentity cache for package com.facebook.katana. Reason: package android.intent.action.PACKAGE_ADDED
+06-06 05:39:07.311 I/InputReader( 1954): Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+06-06 05:39:07.328 I/RoleManagerService( 1954): Granting default roles...
+06-06 05:39:07.335 W/BroadcastQueue( 1954): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.facebook.katana flg=0x4000010 (has extras) } to com.android.packageinstaller/.PackageInstalledReceiver
+06-06 05:39:07.335 W/BroadcastQueue( 1954): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.facebook.katana flg=0x4000010 (has extras) } to com.android.gallery3d/.app.PackagesMonitor
+06-06 05:39:07.335 W/BroadcastQueue( 1954): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.facebook.katana flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+06-06 05:39:07.335 W/BroadcastQueue( 1954): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.facebook.katana flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.backgroundimpl.BackgroundPackageMonitorReceiverImpl$RegisteredReceiver
+06-06 05:39:07.335 W/BroadcastQueue( 1954): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.facebook.katana flg=0x4000010 (has extras) } to com.genymotion.superuser/com.koushikdutta.superuser.PackageChangeReceiver
+06-06 05:39:07.336 W/BroadcastQueue( 1954): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.facebook.katana flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+06-06 05:39:07.336 W/BroadcastQueue( 1954): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.facebook.katana flg=0x4000010 (has extras) } to com.google.android.gms/.games.chimera.GamesSystemBroadcastReceiverProxy
+06-06 05:39:07.336 W/BroadcastQueue( 1954): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.facebook.katana flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
+06-06 05:39:07.339 I/Finsky:background( 4074): [2] adrl - Received: android.intent.action.PACKAGE_ADDED, [EZG20hmXkMW60rjD1njCqkGiPigJznqp--yHeLxcKXM]
+06-06 05:39:07.343 I/Finsky  ( 5919): [2] adrw - Received: android.intent.action.PACKAGE_ADDED, [EZG20hmXkMW60rjD1njCqkGiPigJznqp--yHeLxcKXM]
+--------- beginning of kernel
+06-06 05:39:07.372 D/logd    (    0): logdr: UID=0 GID=0 PID=6416 b tail=0 logMask=99 pid=0 start=0ns timeout=0ns
+06-06 05:39:07.377 D/CarrierSvcBindHelper( 2340): No carrier app for: 0
+06-06 05:39:07.381 I/Telecom ( 1954): DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: DDC.oR@AJY
+06-06 05:39:07.386 W/NetworkScheduler( 2173): Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.facebook.katana flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+06-06 05:39:07.386 W/GCM     ( 2173): Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.facebook.katana flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+06-06 05:39:07.388 I/PermissionControllerServiceImpl( 4822): Updating user sensitive for uid 10548
+06-06 05:39:07.389 W/VoiceInteractionManager( 1954): no available voice recognition services found for user 0
+06-06 05:39:07.389 V/BackupManagerConstants( 1954): getFullBackupIntervalMilliseconds(...) returns 86400000
+06-06 05:39:07.389 V/BackupManagerConstants( 1954): getFullBackupRequiredNetworkType(...) returns 2
+06-06 05:39:07.389 V/BackupManagerConstants( 1954): getFullBackupRequireCharging(...) returns true
+06-06 05:39:07.410 D/CarrierConfigLoader( 2340): mHandler: 9 phoneId: 0
+06-06 05:39:07.418 E/gjwb    ( 2903): *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+06-06 05:39:07.418 E/gjwb    ( 2903):     Make sure to call shutdown()/shutdownNow()
+06-06 05:39:07.418 E/gjwb    ( 2903): java.lang.RuntimeException: ManagedChannel allocation site
+06-06 05:39:07.418 E/gjwb    ( 2903): 	at gjwa.<init>(:com.google.android.gms@251833022@25.18.33 (150400-756823100):21)
+06-06 05:39:07.418 E/gjwb    ( 2903): 	at gjwb.<init>(:com.google.android.gms@251833022@25.18.33 (150400-756823100):10)
+06-06 05:39:07.418 E/gjwb    ( 2903): 	at gjvz.a(:com.google.android.gms@251833022@25.18.33 (150400-756823100):259)
+06-06 05:39:07.418 E/gjwb    ( 2903): 	at gjhb.a(:com.google.android.gms@251833022@25.18.33 (150400-756823100):5)
+06-06 05:39:07.418 E/gjwb    ( 2903): 	at avqc.a(:com.google.android.gms@251833022@25.18.33 (150400-756823100):70)
+06-06 05:39:07.418 E/gjwb    ( 2903): 	at avpt.u(:com.google.android.gms@251833022@25.18.33 (150400-756823100):120)
+06-06 05:39:07.418 E/gjwb    ( 2903): 	at avpt.e(:com.google.android.gms@251833022@25.18.33 (150400-756823100):5)
+06-06 05:39:07.418 E/gjwb    ( 2903): 	at dmiy.a(:com.google.android.gms@251833022@25.18.33 (150400-756823100):45)
+06-06 05:39:07.418 E/gjwb    ( 2903): 	at dmia.c(:com.google.android.gms@251833022@25.18.33 (150400-756823100):7)
+06-06 05:39:07.418 E/gjwb    ( 2903): 	at dmia.a(:com.google.android.gms@251833022@25.18.33 (150400-756823100):3)
+06-06 05:39:07.418 E/gjwb    ( 2903): 	at arcj.run(:com.google.android.gms@251833022@25.18.33 (150400-756823100):5)
+06-06 05:39:07.418 E/gjwb    ( 2903): 	at avvk.c(:com.google.android.gms@251833022@25.18.33 (150400-756823100):50)
+06-06 05:39:07.418 E/gjwb    ( 2903): 	at avvk.run(:com.google.android.gms@251833022@25.18.33 (150400-756823100):70)
+06-06 05:39:07.418 E/gjwb    ( 2903): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-06 05:39:07.418 E/gjwb    ( 2903): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-06 05:39:07.418 E/gjwb    ( 2903): 	at awaz.run(:com.google.android.gms@251833022@25.18.33 (150400-756823100):8)
+06-06 05:39:07.418 E/gjwb    ( 2903): 	at java.lang.Thread.run(Thread.java:923)
+06-06 05:39:07.431 I/Finsky  ( 5919): [2] Do not start WearSupportService due to Wear service optimization
+06-06 05:39:07.431 I/Finsky  ( 5919): [2] Clearing split related stale data.
+06-06 05:39:07.432 I/Finsky  ( 5919): [2] AIM: AppInfoCacheUpdater -> invalidating apps: [com.facebook.katana]
+06-06 05:39:07.433 I/Finsky  ( 5919): [2] AIM: AppInfoManager-Perf > getApps > called for 1 apps
+06-06 05:39:07.445 I/Finsky  ( 5919): [325] AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.facebook.katana]
+06-06 05:39:07.448 I/Finsky  ( 5919): [335] AIM: Got app ownership map. App counts: 1. Unique apps: 1
+06-06 05:39:07.450 I/Finsky  ( 5919): [480] [ContentSync] finished, scheduled=false
+06-06 05:39:07.451 I/Finsky  ( 5919): [2] DTU: Received onPackageAdded, replacing: false
+06-06 05:39:07.451 E/Finsky  ( 5919): [319] [Counters] attempted to use a non-positive increment for: 4753
+06-06 05:39:07.452 I/Finsky  ( 5919): [325] AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.facebook.katana]
+06-06 05:39:07.461 I/Finsky  ( 5919): [335] AIM: Got app ownership map. App counts: 1. Unique apps: 1
+06-06 05:39:07.490 E/Finsky  ( 5919): [335] [Counters] attempted to use a non-positive increment for: 4753
+06-06 05:39:07.566 W/BestClock( 1954): java.time.DateTimeException: Missing NTP fix
+06-06 05:39:07.569 I/Auth    ( 2903): [SupervisedAccountIntentOperationV2] onHandleIntent: android.intent.action.PACKAGE_ADDED [CONTEXT service_id=42 ]
+06-06 05:39:07.592 I/Finsky:background( 4074): [397] Wrote row to frosting DB: 512
+06-06 05:39:07.595 I/Finsky  ( 5919): [308] SCH: Received scheduling request: Id: 37-51, Constraints: [{ L: 0, D: 0, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }]
+06-06 05:39:07.603 I/Blockstore( 2903): [DataStoreImpl] Clearing Blockstore Data for package com.facebook.katana [CONTEXT service_id=258 ]
+06-06 05:39:07.603 W/BestClock( 1954): java.time.DateTimeException: Missing NTP fix
+06-06 05:39:07.612 I/system_server( 1954): Background concurrent copying GC freed 261990(12MB) AllocSpace objects, 106(5044KB) LOS objects, 49% free, 16MB/33MB, paused 26us total 313.554ms
+06-06 05:39:07.614 I/Finsky  ( 5919): [319] AIM: AppInfoManager-Perf > ItemModel > CacheSize=4, cacheHitCount=0, cacheMissCount=1, total appsWithNoServerDataCount=1. Missed  in cache (limit 10) : [com.facebook.katana]
+06-06 05:39:07.614 I/Finsky  ( 5919): [319] AIM: AppInfoManager-Perf > ItemModel > ItemStore Called 1 apps cacheOptions = REFRESH_LOCAL_CACHE
+06-06 05:39:07.615 I/Finsky  ( 5919): [319] AIM: ItemModel fetch - unauth(0), auth([vgEkZLxWmveLKdEZaH588DAJ1Gr8IQtoKU0YzDbytvY]->1)
+06-06 05:39:07.615 W/BestClock( 1954): java.time.DateTimeException: Missing NTP fix
+06-06 05:39:07.623 W/Dck     ( 2903): Disable DCK module - Android debug build without fullaccess [CONTEXT service_id=289 ]
+06-06 05:39:07.623 W/Dck     ( 2903): Dck module not eligible for asynchronous downloading [CONTEXT service_id=289 ]
+06-06 05:39:07.651 I/Finsky  ( 5919): [335] AIM: AppInfoManager-Perf > ItemModel > CacheSize=4, cacheHitCount=0, cacheMissCount=1, total appsWithNoServerDataCount=1. Missed  in cache (limit 10) : [com.facebook.katana]
+06-06 05:39:07.651 I/Finsky  ( 5919): [335] AIM: AppInfoManager-Perf > ItemModel > ItemStore Called 1 apps cacheOptions = USE_CACHE
+06-06 05:39:07.652 I/Blockstore( 2903): [DataStoreImpl] Keyless data not found or its IsLastInstallationData = false. [CONTEXT service_id=258 ]
+06-06 05:39:07.654 I/Finsky  ( 5919): [335] AIM: ItemModel fetch - unauth(0), auth([vgEkZLxWmveLKdEZaH588DAJ1Gr8IQtoKU0YzDbytvY]->1)
+06-06 05:39:07.686 I/Finsky:background( 4074): [397] Wrote row to frosting DB: 513
+06-06 05:39:07.687 E/Finsky  ( 5919): [335] [Counters] attempted to use a non-positive increment for: 4751
+06-06 05:39:07.687 I/Finsky  ( 5919): [335] AIM: AppInfoManager-Perf > getApps > data collection finished
+06-06 05:39:07.687 I/Finsky  ( 5919): [335] AIM: AppInfoManager-Perf > maybeDestroyAppInfoManager is called. actives = 0
+06-06 05:39:07.693 E/Finsky  ( 5919): [319] [Counters] attempted to use a non-positive increment for: 4751
+06-06 05:39:07.709 W/BestClock( 1954): java.time.DateTimeException: Missing NTP fix
+06-06 05:39:07.712 W/BestClock( 1954): java.time.DateTimeException: Missing NTP fix
+06-06 05:39:07.744 I/Finsky  ( 5919): [319] SCH: Scheduling phonesky job Id: 37-51, CT: 1749188347595, Constraints: [{ L: 0, D: 0, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }, { L: 0, D: 0, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }]
+06-06 05:39:07.751 I/Finsky  ( 5919): [335] SCH: Scheduling 1 system job(s)
+06-06 05:39:07.751 I/Finsky  ( 5919): [335] SCH: Scheduling system job Id: 9176, L: 0, D: 0, C: false, I: false, N: 0
+06-06 05:39:07.765 I/Finsky  ( 5919): [2] SCH: job service start with id 9176.
+06-06 05:39:07.775 I/Finsky  ( 5919): [480] SCH: Satisfied jobs for 9176 are: 37-51
+06-06 05:39:07.775 I/Finsky  ( 5919): [488] SCH: Job 37-51 starting
+06-06 05:39:07.776 I/Icing   ( 2903): Indexing com.google.android.gms-apps from com.google.android.gms
+06-06 05:39:07.776 I/Finsky  ( 5919): [2] Received an install/uninstall event for package com.facebook.katana with replacing being false
+06-06 05:39:07.777 I/Finsky  ( 5919): [2] SCH: jobFinished: 37-51. TimeElapsed: 1ms.
+06-06 05:39:07.778 I/Finsky  ( 5919): [319] Not an active Cubes user. Ignoring package install/uninstall event.
+06-06 05:39:07.784 I/Icing   ( 2903): Indexing done com.google.android.gms-apps
+06-06 05:39:07.808 I/Finsky  ( 5919): [319] SCH: Scheduling phonesky job Id: 26-1414141414, CT: 1749187448578, Constraints: [{ L: 43200000, D: 44100000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }]
+06-06 05:39:07.808 I/Finsky  ( 5919): [319] SCH: Scheduling phonesky job Id: 50-1029, CT: 1749188162017, Constraints: [{ L: 85690080, D: 87490080, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }]
+06-06 05:39:07.815 W/Conscrypt( 2903): Could not set socket write timeout: java.net.SocketException: Socket closed
+06-06 05:39:07.815 W/Conscrypt( 2903): 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@251833022@25.18.33 (150400-756823100):219)
+06-06 05:39:07.815 W/Conscrypt( 2903): 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@251833022@25.18.33 (150400-756823100):4)
+06-06 05:39:07.815 I/Finsky  ( 5919): [335] SCH: Scheduling 1 system job(s)
+06-06 05:39:07.815 I/Finsky  ( 5919): [335] SCH: Scheduling system job Id: 9180, L: 42300763, D: 43200763, C: false, I: false, N: 0
+06-06 05:39:07.821 I/Finsky  ( 5919): [488] SCH: job service finished with id 9176.
+06-06 05:39:07.896 I/Finsky  ( 5919): [325] Installer package name of package com.android.calendar is 
+06-06 05:39:07.896 I/Finsky  ( 5919): [325] Installer package name of package com.android.camera2 is 
+06-06 05:39:07.896 I/Finsky  ( 5919): [325] Installer package name of package com.android.contacts is 
+06-06 05:39:07.896 I/Finsky  ( 5919): [325] Installer package name of package com.android.deskclock is 
+06-06 05:39:07.896 I/Finsky  ( 5919): [325] Installer package name of package com.android.dialer is 
+06-06 05:39:07.896 I/Finsky  ( 5919): [325] Installer package name of package com.android.gallery3d is 
+06-06 05:39:07.896 I/Finsky  ( 5919): [325] Installer package name of package com.android.messaging is 
+06-06 05:39:07.896 I/Finsky  ( 5919): [325] Installer package name of package com.android.settings is 
+06-06 05:39:07.896 I/Finsky  ( 5919): [325] Installer package name of package com.amaze.filemanager is 
+06-06 05:39:07.896 I/Finsky  ( 5919): [325] Installer package name of package com.android.customlocale2 is 
+06-06 05:39:07.896 I/Finsky  ( 5919): [325] Installer package name of package com.android.development is 
+06-06 05:39:07.896 I/Finsky  ( 5919): [325] Installer package name of package com.android.development_settings is 
+06-06 05:39:07.896 I/Finsky  ( 5919): [325] Installer package name of package com.android.documentsui is 
+06-06 05:39:07.896 I/Finsky  ( 5919): [325] Installer package name of package com.android.quicksearchbox is 
+06-06 05:39:07.896 I/Finsky  ( 5919): [325] Installer package name of package com.genymotion.superuser is 
+06-06 05:39:07.896 I/Finsky  ( 5919): [325] Installer package name of package org.chromium.webview_shell is 
+06-06 05:39:07.896 I/Finsky  ( 5919): [325] Installer package name of package com.facebook.katana is 
+06-06 05:39:07.915 W/Conscrypt( 2903): Could not set socket write timeout: java.net.SocketException: Socket closed
+06-06 05:39:07.915 W/Conscrypt( 2903): 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@251833022@25.18.33 (150400-756823100):219)
+06-06 05:39:07.916 W/Conscrypt( 2903): 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@251833022@25.18.33 (150400-756823100):4)
+06-06 05:39:08.253 I/IntentFilterIntentOp( 2903): Verification 4 complete. Success:true. Failed hosts:. [CONTEXT service_id=244 ]
+06-06 05:39:08.253 I/PackageManager( 1954): autoVerify ignored when installing for all users
+06-06 05:39:08.377 E/Finsky  ( 5919): [2] Failed to load an Item com.android.vending, missing shared fields: [4], missing type-specific fields: [0, 0, 0, 0, 0, 0, 0, 0, 64]
+06-06 05:39:08.377 E/Finsky  ( 5919): [2] Required items [com.android.vending]
+06-06 05:39:08.377 E/Finsky  ( 5919): [2] Requested items [[com.android.vending]]
+06-06 05:39:08.377 E/Finsky  ( 5919): [2] Retrieved items []
+06-06 05:39:13.260 I/Finsky  ( 5919): [319] AIM: AppInfoManager-Perf > Destroying AppInfoManager ...
+06-06 05:39:16.144 D/BoundBrokerSvc( 2903): onUnbind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+06-06 05:39:17.710 I/Finsky  ( 5919): [2] SCH: job service start with id 9169.
+06-06 05:39:17.719 I/Finsky  ( 5919): [480] SCH: Satisfied jobs for 9169 are: 12-1
+06-06 05:39:17.721 I/Finsky  ( 5919): [488] SCH: Job 12-1 starting
+06-06 05:39:17.722 I/Finsky  ( 5919): [2] [ContentSync] job started
+06-06 05:39:17.753 I/NetworkScheduler.Stats( 2173): Task com.google.android.gms/com.google.android.gms.games.chimera.GamesSyncServiceMainProxy started execution. cause:4 exec_start_elapsed_seconds: 926 [CONTEXT service_id=218 ]
+06-06 05:39:17.762 I/PlayGamesServices[GamesSyncAdapter]( 2903): Starting sync for fcb9e26a
+06-06 05:39:17.764 I/PlayGamesServices[GamesSyncAdapter]( 2903): Sync duration for fcb9e26a: 2
+06-06 05:39:17.772 I/NetworkScheduler.Stats( 2173): Task com.google.android.gms/com.google.android.gms.games.chimera.GamesSyncServiceMainProxy finished executing. cause:4 result: 1 elapsed_millis: 37 uptime_millis: 37 exec_start_elapsed_seconds: 926 [CONTEXT service_id=218 ]
+06-06 05:39:17.806 W/PlayGamesServices[UiUtils]( 2903): AppVersion: Cannot find the installed destination app.
+06-06 05:39:17.807 I/GetServiceValidatorImpl( 2903): onGetService() from Client SDK version [251833000], Module version [251833022], PGA version [0], Account [Account {name=<<default account>>, type=com.google}], Calling package [com.google.android.gms], Game package [com.google.android.gms] [CONTEXT service_id=1 ]
+06-06 05:39:17.812 W/GetGamesServiceReqFacto( 2903): Parsing request with ignored arguments. signInOptionsBundle [Bundle[{com.google.android.gms.signin.internal.serverClientId=null, com.google.android.gms.signin.internal.usePromptModeForAuthCode=true, com.google.android.gms.signin.internal.logSessionId=null, com.google.android.gms.signin.internal.hostedDomain=null, com.google.android.gms.signin.internal.offlineAccessRequested=false, com.google.android.gms.signin.internal.waitForAccessTokenRefresh=false, com.google.android.gms.signin.internal.clientRequestedAccount=Account {name=<<default account>>, type=com.google}, com.google.android.gms.signin.internal.idTokenRequested=false, com.google.android.gms.signin.internal.forceCodeForRefreshToken=false}]], isRetryingSignIn [false], skipWelcomePopup [false], requireGooglePlus [false]
+06-06 05:39:17.812 I/GetGamesServiceReqFacto( 2903): Replacing request for `games` scope with `games_lite`
+06-06 05:39:17.832 I/SignInPerformer-4( 2903): Handling request [GetGamesServiceRequest{gamePackageName=com.google.android.gms, gameUid=10132, gamePlayServicesClientLibraryVersion=251833000, sdkVariation=1052947, requestedScopes=[https://www.googleapis.com/auth/games_lite], callingIdentity=CallingIdentity{uid=10132, pid=2903, packageName=com.google.android.gms, playServicesClientLibraryVersion=251833000}, requestedAccount=Optional.absent(), forceResolveAccountKey=null, requestedServiceMode=2, initiatorCategory=1}], isFirstPartyCaller [true] [CONTEXT service_id=1 ]
+06-06 05:39:17.835 I/SignInPerformer-4( 2903): Successfully brokered first-party unauthenticated GamesService [CONTEXT service_id=1 ]
+06-06 05:39:17.837 I/GetGamesServiceV2Op( 2903): Successfully brokered GamesService for request flr{gamePackageName=com.google.android.gms, gameUid=10132, gamePlayServicesClientLibraryVersion=251833000, sdkVariation=1052947, requestedScopes=[https://www.googleapis.com/auth/games_lite], callingIdentity=CallingIdentity{uid=10132, pid=2903, packageName=com.google.android.gms, playServicesClientLibraryVersion=251833000}, requestedAccount=Optional.absent(), forceResolveAccountKey=null, requestedServiceMode=2, initiatorCategory=1} [CONTEXT service_id=1 ]
+06-06 05:39:17.845 W/PlayGamesServices[UiUtils]( 2903): AppVersion: Cannot find the installed destination app.
+06-06 05:39:17.845 W/PlayGamesServices[UiUtils]( 2903): AppVersionName: Cannot find the installed destination app.
+06-06 05:39:18.298 W/.gms.persisten( 2173): Profile data size exceeds 500000 bytes. It has 605571 bytes.
+06-06 05:39:18.310 I/Finsky  ( 5919): [2] App states replicator found 2 unowned apps
+06-06 05:39:18.878 I/Finsky  ( 5919): [489] Completed 1 account content syncs with 1 successful.
+06-06 05:39:18.880 I/Finsky  ( 5919): [2] [ContentSync] Installation state replication succeeded.
+06-06 05:39:18.880 I/Finsky  ( 5919): [2] SCH: jobFinished: 12-1. TimeElapsed: 1158ms.
+06-06 05:39:18.895 I/Finsky  ( 5919): [319] SCH: Scheduling phonesky job Id: 1-1337, CT: 1749187448490, Constraints: [{ L: 14399998, D: 46786610, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+06-06 05:39:18.895 I/Finsky  ( 5919): [319] SCH: Scheduling phonesky job Id: 10-4, CT: 1749187447510, Constraints: [{ L: 1200000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+06-06 05:39:18.895 I/Finsky  ( 5919): [319] SCH: Scheduling phonesky job Id: 34-91, CT: 1749187453129, Constraints: [{ L: 79199832, D: 1375199832, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+06-06 05:39:18.895 I/Finsky  ( 5919): [319] SCH: Scheduling phonesky job Id: 34-94, CT: 1749187453472, Constraints: [{ L: 604800000, D: 2591999860, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+06-06 05:39:18.897 I/Finsky  ( 5919): [335] SCH: Scheduling 1 system job(s)
+06-06 05:39:18.898 I/Finsky  ( 5919): [335] SCH: Scheduling system job Id: 9182, L: 288613, D: 45876203, C: false, I: false, N: 1
+06-06 05:39:18.902 I/Finsky  ( 5919): [488] SCH: job service finished with id 9169.
+06-06 05:39:23.026 D/SntpClient( 1954): request time failed: java.net.SocketTimeoutException: Poll timed out
+06-06 05:39:23.027 E/NtpTimeHelper( 1954): requestTime failed
+06-06 05:39:41.533 W/gle.android.gm( 2903): Profile data size exceeds 500000 bytes. It has 605571 bytes.
+06-06 05:39:55.671 D/WifiNl80211Manager( 1954): Scan result ready event
+06-06 05:39:55.673 D/WifiNative( 1954): Scan result ready event
+06-06 05:40:00.444 D/KeyguardClockSwitch( 2195): Updating clock: 540
