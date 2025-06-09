@@ -1,0 +1,208 @@
+--------- beginning of kernel
+06-06 06:11:06.717     0     0 D logd    : logdr: UID=0 GID=0 PID=7589 n tail=0 logMask=99 pid=0 start=0ns timeout=0ns
+--------- beginning of system
+06-06 06:11:06.769  1954  2047 W PackageManager: Not removing non-existent package 13
+--------- beginning of main
+06-06 06:11:06.769  7594  7596 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-06 06:11:06.791  6264  6264 I abb     : StartCommandInProcess(73657474696e67730067657400676c6f settings.get.glo [truncated])
+06-06 06:11:06.793  6264  6834 I abb     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-06 06:11:06.793  6264  6264 I abb     : StartCommandInProcess(7061636b61676500696e7374616c6c00 package.install. [truncated])
+06-06 06:11:07.013  1954  2080 W RuleEvaluation: Integrity rule files are not available.
+06-06 06:11:07.014  1954  2047 I PackageManager: Integrity check passed for file:///data/app/vmdl622665695.tmp
+06-06 06:11:07.022  1954  2047 D CompatibilityChangeReporter: Compat change id reported: 133396946; UID -1; state: DISABLED
+06-06 06:11:07.024  1954  2047 D CompatibilityChangeReporter: Compat change id reported: 135549675; UID 10555; state: DISABLED
+06-06 06:11:07.037  1954  1986 V StorageManagerService: Package null does not have legacy storage
+06-06 06:11:07.037  3093  5141 I MediaProvider: Invalidating LocalCallingIdentity cache for package cyberprivacy.suite. Reason: op android:read_external_storage
+06-06 06:11:07.038  3093  5141 I chatty  : uid=10128(com.android.providers.media.module) Binder:3093_4 identical 1 line
+06-06 06:11:07.038  3093  5141 I MediaProvider: Invalidating LocalCallingIdentity cache for package cyberprivacy.suite. Reason: op android:read_external_storage
+06-06 06:11:07.040  1954  2047 I PackageDexOptimizer: Running dexopt (dexoptNeeded=1) on: /data/app/~~9xccUPlXtn9o0yNbqPv_Qg==/cyberprivacy.suite-PpvPQ23wPEoUsowJzbY4Rw==/base.apk pkg=cyberprivacy.suite isa=arm64 dexoptFlags=boot_complete,profile_guided,public,enable_hidden_api_checks targetFilter=speed-profile oatDir=/data/app/~~9xccUPlXtn9o0yNbqPv_Qg==/cyberprivacy.suite-PpvPQ23wPEoUsowJzbY4Rw==/oat classLoaderContext=PCL[]{PCL[/system/framework/android.test.base.jar]}
+06-06 06:11:07.040  1810  1810 V installd: DexInv: --- BEGIN '/data/app/~~9xccUPlXtn9o0yNbqPv_Qg==/cyberprivacy.suite-PpvPQ23wPEoUsowJzbY4Rw==/base.apk' ---
+06-06 06:11:07.041  7601  7601 E installd: execv(/apex/com.android.art/bin/dex2oat32) failed: Exec format error
+06-06 06:11:07.042  1810  1810 V installd: DexInv: --- END '/data/app/~~9xccUPlXtn9o0yNbqPv_Qg==/cyberprivacy.suite-PpvPQ23wPEoUsowJzbY4Rw==/base.apk' --- status=0x4800, process failed
+06-06 06:11:07.042  1810  1810 E installd: Dex2oat invocation for /data/app/~~9xccUPlXtn9o0yNbqPv_Qg==/cyberprivacy.suite-PpvPQ23wPEoUsowJzbY4Rw==/base.apk failed: exec(dex2oat) (18432)
+06-06 06:11:07.042  1954  2047 W PackageDexOptimizer: Failed to dexopt
+06-06 06:11:07.042  1954  2047 W PackageDexOptimizer: com.android.server.pm.Installer$InstallerException: android.os.ServiceSpecificException: Dex2oat invocation for /data/app/~~9xccUPlXtn9o0yNbqPv_Qg==/cyberprivacy.suite-PpvPQ23wPEoUsowJzbY4Rw==/base.apk failed: exec(dex2oat) (code 18432)
+06-06 06:11:07.042  1954  2047 W PackageDexOptimizer: 	at com.android.server.pm.Installer.dexopt(Installer.java:387)
+06-06 06:11:07.042  1954  2047 W PackageDexOptimizer: 	at com.android.server.pm.PackageDexOptimizer.dexOptPath(PackageDexOptimizer.java:302)
+06-06 06:11:07.042  1954  2047 W PackageDexOptimizer: 	at com.android.server.pm.PackageDexOptimizer.performDexOptLI(PackageDexOptimizer.java:251)
+06-06 06:11:07.042  1954  2047 W PackageDexOptimizer: 	at com.android.server.pm.PackageDexOptimizer.performDexOpt(PackageDexOptimizer.java:153)
+06-06 06:11:07.042  1954  2047 W PackageDexOptimizer: 	at com.android.server.pm.PackageManagerService.executePostCommitSteps(PackageManagerService.java:17079)
+06-06 06:11:07.042  1954  2047 W PackageDexOptimizer: 	at com.android.server.pm.PackageManagerService.installPackagesLI(PackageManagerService.java:16925)
+06-06 06:11:07.042  1954  2047 W PackageDexOptimizer: 	at com.android.server.pm.PackageManagerService.installPackagesTracedLI(PackageManagerService.java:16238)
+06-06 06:11:07.042  1954  2047 W PackageDexOptimizer: 	at com.android.server.pm.PackageManagerService.lambda$processInstallRequestsAsync$22$PackageManagerService(PackageManagerService.java:14404)
+06-06 06:11:07.042  1954  2047 W PackageDexOptimizer: 	at com.android.server.pm.-$$Lambda$PackageManagerService$9znobjOH7ab0F1jsW2oFdNipS-8.run(Unknown Source:6)
+06-06 06:11:07.042  1954  2047 W PackageDexOptimizer: 	at android.os.Handler.handleCallback(Handler.java:938)
+06-06 06:11:07.042  1954  2047 W PackageDexOptimizer: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-06 06:11:07.042  1954  2047 W PackageDexOptimizer: 	at android.os.Looper.loop(Looper.java:223)
+06-06 06:11:07.042  1954  2047 W PackageDexOptimizer: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-06 06:11:07.042  1954  2047 W PackageDexOptimizer: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+06-06 06:11:07.043  1954  1986 V StorageManagerService: Package null has legacy storage
+06-06 06:11:07.043  3093  5141 I MediaProvider: Invalidating LocalCallingIdentity cache for package cyberprivacy.suite. Reason: op android:read_external_storage
+06-06 06:11:07.044  1810  1810 E installd: Couldn't opendir /data/app/vmdl622665695.tmp: No such file or directory
+06-06 06:11:07.044  1810  1810 E installd: Failed to delete /data/app/vmdl622665695.tmp: No such file or directory
+06-06 06:11:07.048  6264  6834 I abb     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-06 06:11:07.048  3093  3093 I MediaProvider: Invalidating LocalCallingIdentity cache for package cyberprivacy.suite. Reason: package android.intent.action.PACKAGE_ADDED
+06-06 06:11:07.049  1954  1986 I RoleManagerService: Granting default roles...
+06-06 06:11:07.050  4074  4074 I Finsky:background: [2] adrl - Received: android.intent.action.PACKAGE_ADDED, [YYAFuST-RSDi4cfjAUNVf0WIn23wcvHrF2lEEkh73zE]
+06-06 06:11:07.051  1954  2072 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+06-06 06:11:07.052  5919  5919 I Finsky  : [2] adrw - Received: android.intent.action.PACKAGE_ADDED, [YYAFuST-RSDi4cfjAUNVf0WIn23wcvHrF2lEEkh73zE]
+06-06 06:11:07.053  1954  2108 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:cyberprivacy.suite flg=0x4000010 (has extras) } to com.android.packageinstaller/.PackageInstalledReceiver
+06-06 06:11:07.055  1954  1995 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:cyberprivacy.suite flg=0x4000010 (has extras) } to com.android.gallery3d/.app.PackagesMonitor
+06-06 06:11:07.055  1954  1995 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:cyberprivacy.suite flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+06-06 06:11:07.055  1954  1995 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:cyberprivacy.suite flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.backgroundimpl.BackgroundPackageMonitorReceiverImpl$RegisteredReceiver
+06-06 06:11:07.055  1954  1995 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:cyberprivacy.suite flg=0x4000010 (has extras) } to com.genymotion.superuser/com.koushikdutta.superuser.PackageChangeReceiver
+06-06 06:11:07.055  1954  1995 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:cyberprivacy.suite flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+06-06 06:11:07.055  1954  1995 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:cyberprivacy.suite flg=0x4000010 (has extras) } to com.google.android.gms/.games.chimera.GamesSystemBroadcastReceiverProxy
+06-06 06:11:07.055  1954  1995 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:cyberprivacy.suite flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
+06-06 06:11:07.055  4822  6157 I PermissionControllerServiceImpl: Updating user sensitive for uid 10555
+06-06 06:11:07.059  1954  1954 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: DDC.oR@ALU
+06-06 06:11:07.069  4074  7605 I Finsky:background: [435] Wrote row to frosting DB: 514
+06-06 06:11:07.070  1954  1994 W VoiceInteractionManager: no available voice recognition services found for user 0
+06-06 06:11:07.075  2340  2340 D CarrierSvcBindHelper: No carrier app for: 0
+06-06 06:11:07.080  4074  7605 I Finsky:background: [435] Wrote row to frosting DB: 515
+06-06 06:11:07.080  5919  5919 I Finsky  : [2] Do not start WearSupportService due to Wear service optimization
+06-06 06:11:07.081  5919  5919 I Finsky  : [2] Clearing split related stale data.
+06-06 06:11:07.081  5919  5955 I Finsky  : [319] AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [cyberprivacy.suite]
+06-06 06:11:07.081  2340  2340 D CarrierConfigLoader: mHandler: 9 phoneId: 0
+06-06 06:11:07.081  5919  5919 I Finsky  : [2] AIM: AppInfoCacheUpdater -> invalidating apps: [cyberprivacy.suite]
+06-06 06:11:07.081  5919  5919 I Finsky  : [2] AIM: AppInfoManager-Perf > getApps > called for 1 apps
+06-06 06:11:07.081  5919  5955 I Finsky  : [319] AIM: Got app ownership map. App counts: . Unique apps: 0
+06-06 06:11:07.081  5919  5955 E Finsky  : [319] [Counters] attempted to use a non-positive increment for: 4752
+06-06 06:11:07.082  5919  5955 E Finsky  : [319] [Counters] attempted to use a non-positive increment for: 4753
+06-06 06:11:07.082  5919  5955 I Finsky  : [319] AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [cyberprivacy.suite]
+06-06 06:11:07.082  5919  5955 I Finsky  : [319] AIM: Got app ownership map. App counts: . Unique apps: 0
+06-06 06:11:07.082  5919  5955 E Finsky  : [319] [Counters] attempted to use a non-positive increment for: 4752
+06-06 06:11:07.083  5919  5976 E Finsky  : [335] [Counters] attempted to use a non-positive increment for: 4753
+06-06 06:11:07.101  5919  7612 I Finsky  : [640] SCH: Received scheduling request: Id: 12-1, Constraints: [{ L: 15000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+06-06 06:11:07.105  2173  7608 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:cyberprivacy.suite flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+06-06 06:11:07.107  2173  7608 W NetworkScheduler: Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:cyberprivacy.suite flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+06-06 06:11:07.107  2903  7617 I Auth    : [SupervisedAccountIntentOperationV2] onHandleIntent: android.intent.action.PACKAGE_ADDED [CONTEXT service_id=42 ]
+06-06 06:11:07.109  2903  7609 W Dck     : Disable DCK module - Android debug build without fullaccess [CONTEXT service_id=289 ]
+06-06 06:11:07.109  2903  7609 W Dck     : Dck module not eligible for asynchronous downloading [CONTEXT service_id=289 ]
+06-06 06:11:07.112  2903  7618 I Blockstore: [DataStoreImpl] Clearing Blockstore Data for package cyberprivacy.suite [CONTEXT service_id=258 ]
+06-06 06:11:07.112  2903  7618 I Blockstore: [DataStoreImpl] Keyless data not found or its IsLastInstallationData = false. [CONTEXT service_id=258 ]
+06-06 06:11:07.117  5919  5919 I Finsky  : [2] DTU: Received onPackageAdded, replacing: false
+06-06 06:11:07.131  2173  2622 W .gms.persisten: Profile data size exceeds 500000 bytes. It has 605571 bytes.
+06-06 06:11:07.134  2903  6875 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36
+06-06 06:11:07.134  5919  5970 I Finsky  : [332] AIM: AppInfoManager-Perf > ItemModel > CacheSize=4, cacheHitCount=0, cacheMissCount=0, total appsWithNoServerDataCount=1. Missed  in cache (limit 10) : []
+06-06 06:11:07.135  2903  2903 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+06-06 06:11:07.135  2903  2903 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+06-06 06:11:07.143  5919  5970 I Finsky  : [332] AIM: AppInfoManager-Perf > ItemModel > CacheSize=4, cacheHitCount=0, cacheMissCount=0, total appsWithNoServerDataCount=1. Missed  in cache (limit 10) : []
+06-06 06:11:07.149  5919  5955 I Finsky  : [319] Installer package name of package com.android.calendar is 
+06-06 06:11:07.149  5919  5955 I Finsky  : [319] Installer package name of package com.android.camera2 is 
+06-06 06:11:07.149  5919  5955 I Finsky  : [319] Installer package name of package com.android.contacts is 
+06-06 06:11:07.149  5919  5955 I Finsky  : [319] Installer package name of package com.android.deskclock is 
+06-06 06:11:07.150  5919  5955 I Finsky  : [319] Installer package name of package com.android.dialer is 
+06-06 06:11:07.150  5919  5955 I Finsky  : [319] Installer package name of package com.android.gallery3d is 
+06-06 06:11:07.152  5919  5955 I Finsky  : [319] Installer package name of package com.android.messaging is 
+06-06 06:11:07.152  5919  5945 I Finsky  : [309] SCH: Received scheduling request: Id: 37-64, Constraints: [{ L: 0, D: 0, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }]
+06-06 06:11:07.153  5919  5955 I Finsky  : [319] Installer package name of package com.android.settings is 
+06-06 06:11:07.153  5919  5955 I Finsky  : [319] Installer package name of package com.amaze.filemanager is 
+06-06 06:11:07.153  5919  5955 I Finsky  : [319] Installer package name of package com.android.customlocale2 is 
+06-06 06:11:07.153  5919  5955 I Finsky  : [319] Installer package name of package com.android.development is 
+06-06 06:11:07.154  5919  5955 I Finsky  : [319] Installer package name of package com.android.development_settings is 
+06-06 06:11:07.154  5919  5955 I Finsky  : [319] Installer package name of package com.android.documentsui is 
+06-06 06:11:07.155  5919  5955 I Finsky  : [319] Installer package name of package com.android.quicksearchbox is 
+06-06 06:11:07.155  5919  5955 I Finsky  : [319] Installer package name of package com.genymotion.superuser is 
+06-06 06:11:07.155  5919  5955 I Finsky  : [319] Installer package name of package org.chromium.webview_shell is 
+06-06 06:11:07.156  5919  5955 I Finsky  : [319] Installer package name of package co.tapcart.app.id_vrUrkdLduu is 
+06-06 06:11:07.157  5919  5955 I Finsky  : [319] Installer package name of package cyberprivacy.suite is 
+06-06 06:11:07.159  2903  7631 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+06-06 06:11:07.162  2903  6875 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30
+06-06 06:11:07.164  2903  7631 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+06-06 06:11:07.170  5919  5961 I Finsky  : [325] AIM: AppInfoManager-Perf > getApps > data collection finished
+06-06 06:11:07.170  5919  5961 I Finsky  : [325] AIM: AppInfoManager-Perf > maybeDestroyAppInfoManager is called. actives = 0
+06-06 06:11:07.185  2903  7631 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+06-06 06:11:07.188  2903  7631 I Icing   : Indexing done com.google.android.gms-apps
+06-06 06:11:07.196  7641  7641 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+06-06 06:11:07.197  5919  5933 W android.vendin: Reducing the number of considered missed Gc histogram windows from 111 to 100
+06-06 06:11:07.197  7641  7641 I AndroidRuntime: Using default boot image
+06-06 06:11:07.197  7641  7641 I AndroidRuntime: Leaving lock profiling enabled
+06-06 06:11:07.200  7641  7641 E cutils-trace: Error opening trace file: No such file or directory (2)
+06-06 06:11:07.200  7641  7641 I app_process: Core platform API reporting enabled, enforcing=false
+06-06 06:11:07.233  5919  5976 I Finsky  : [335] SCH: Scheduling phonesky job Id: 12-1, CT: 1749190267101, Constraints: [{ L: 15000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+06-06 06:11:07.235  5919  5955 I Finsky  : [319] SCH: Scheduling 1 system job(s)
+06-06 06:11:07.235  5919  5955 I Finsky  : [319] SCH: Scheduling system job Id: 9384, L: 14866, D: 43967865, C: false, I: false, N: 1
+06-06 06:11:07.237  5919  5953 I Finsky  : [317] [ContentSync] finished, scheduled=true
+06-06 06:11:07.250  5919  5970 I Finsky  : [332] SCH: Scheduling phonesky job Id: 37-64, CT: 1749190267152, Constraints: [{ L: 0, D: 0, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }, { L: 0, D: 0, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }]
+06-06 06:11:07.256  5919  5955 I Finsky  : [319] SCH: Scheduling 1 system job(s)
+06-06 06:11:07.256  5919  5955 I Finsky  : [319] SCH: Scheduling system job Id: 9382, L: 0, D: 0, C: false, I: false, N: 0
+06-06 06:11:07.258  5919  5919 I Finsky  : [2] SCH: job service start with id 9382.
+06-06 06:11:07.262  5919  7612 I Finsky  : [640] SCH: Satisfied jobs for 9382 are: 37-64
+06-06 06:11:07.262  5919  7647 I Finsky  : [648] SCH: Job 37-64 starting
+06-06 06:11:07.263  5919  5919 I Finsky  : [2] Received an install/uninstall event for package cyberprivacy.suite with replacing being false
+06-06 06:11:07.263  5919  5919 I Finsky  : [2] SCH: jobFinished: 37-64. TimeElapsed: 1ms.
+06-06 06:11:07.264  5919  5976 I Finsky  : [335] Not an active Cubes user. Ignoring package install/uninstall event.
+06-06 06:11:07.268  5919  5970 I Finsky  : [332] SCH: Scheduling phonesky job Id: 26-1414141414, CT: 1749187448578, Constraints: [{ L: 43200000, D: 44100000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }]
+06-06 06:11:07.268  5919  5970 I Finsky  : [332] SCH: Scheduling phonesky job Id: 50-1029, CT: 1749188162017, Constraints: [{ L: 85690080, D: 87490080, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }]
+06-06 06:11:07.269  5919  5961 I Finsky  : [325] SCH: Scheduling 1 system job(s)
+06-06 06:11:07.269  5919  5961 I Finsky  : [325] SCH: Scheduling system job Id: 9390, L: 40381309, D: 41281309, C: false, I: false, N: 0
+06-06 06:11:07.271  5919  7647 I Finsky  : [648] SCH: job service finished with id 9382.
+06-06 06:11:07.276  7641  7641 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+06-06 06:11:07.276  7641  7641 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+06-06 06:11:07.280  7641  7641 I app_process: The ClassLoaderContext is a special shared library.
+06-06 06:11:07.285  7641  7641 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+06-06 06:11:07.286  7641  7641 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+06-06 06:11:07.287  7641  7641 W Monkey  : args: [-p, 10, -v, 300]
+06-06 06:11:07.287  7641  7641 W Monkey  :  arg: "-p"
+06-06 06:11:07.287  7641  7641 W Monkey  :  arg: "10"
+06-06 06:11:07.287  7641  7641 W Monkey  :  arg: "-v"
+06-06 06:11:07.287  7641  7641 W Monkey  :  arg: "300"
+06-06 06:11:07.287  7641  7641 W Monkey  : data="10"
+06-06 06:11:07.290  7641  7641 I Monkey  : :Monkey: seed=1749432747531 count=300
+06-06 06:11:07.290  7641  7641 I Monkey  : :AllowPackage: 10
+06-06 06:11:07.290  7641  7641 I Monkey  : :IncludeCategory: android.intent.category.LAUNCHER
+06-06 06:11:07.290  7641  7641 I Monkey  : :IncludeCategory: android.intent.category.MONKEY
+06-06 06:11:07.292  1954  1995 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{21b771b u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{dde20b8 7641 (unknown name)/0/u-1 remote:5304615}: process gone or crashing
+06-06 06:11:07.293  7641  7641 I Monkey  : ** No activities found to run, monkey aborted.
+06-06 06:11:07.293  7641  7641 I app_process: System.exit called, status: -4
+06-06 06:11:07.293  7641  7641 I AndroidRuntime: VM exiting with result code -4.
+06-06 06:11:07.386  5919  5919 E Finsky  : [2] Failed to load an Item com.android.vending, missing shared fields: [4], missing type-specific fields: [0, 0, 0, 0, 0, 0, 0, 0, 64]
+06-06 06:11:07.386  5919  5919 E Finsky  : [2] Required items [com.android.vending]
+06-06 06:11:07.386  5919  5919 E Finsky  : [2] Requested items [[com.android.vending]]
+06-06 06:11:07.386  5919  5919 E Finsky  : [2] Retrieved items []
+06-06 06:11:07.810  1954  2085 W BestClock: java.time.DateTimeException: Missing NTP fix
+06-06 06:11:07.846  1954  2085 W BestClock: java.time.DateTimeException: Missing NTP fix
+06-06 06:11:07.849  1954  2086 W BestClock: java.time.DateTimeException: Missing NTP fix
+06-06 06:11:07.958  1954  2086 W BestClock: java.time.DateTimeException: Missing NTP fix
+06-06 06:11:07.959  1954  2093 W BestClock: java.time.DateTimeException: Missing NTP fix
+06-06 06:11:07.959  1954  2093 W BestClock: java.time.DateTimeException: Missing NTP fix
+06-06 06:11:07.964  1954  2085 W BestClock: java.time.DateTimeException: Missing NTP fix
+06-06 06:11:07.983  1954  2085 W BestClock: java.time.DateTimeException: Missing NTP fix
+06-06 06:11:07.985  1954  2086 W BestClock: java.time.DateTimeException: Missing NTP fix
+06-06 06:11:08.054  1954  2086 W BestClock: java.time.DateTimeException: Missing NTP fix
+06-06 06:11:08.055  1954  2093 W BestClock: java.time.DateTimeException: Missing NTP fix
+06-06 06:11:17.139  2173  7391 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.games.chimera.GamesSyncServiceMainProxy started execution. cause:4 exec_start_elapsed_seconds: 2845 [CONTEXT service_id=218 ]
+06-06 06:11:17.147  2903  7480 I PlayGamesServices[GamesSyncAdapter]: Starting sync for fcb9e26a
+06-06 06:11:17.149  2903  7480 I PlayGamesServices[GamesSyncAdapter]: Sync duration for fcb9e26a: 2
+06-06 06:11:17.152  2173  7663 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.games.chimera.GamesSyncServiceMainProxy finished executing. cause:4 result: 1 elapsed_millis: 26 uptime_millis: 26 exec_start_elapsed_seconds: 2845 [CONTEXT service_id=218 ]
+06-06 06:11:17.154  2903  3346 W PlayGamesServices[UiUtils]: AppVersion: Cannot find the installed destination app.
+06-06 06:11:17.154  2903  3346 I GetServiceValidatorImpl: onGetService() from Client SDK version [251833000], Module version [251833022], PGA version [0], Account [Account {name=<<default account>>, type=com.google}], Calling package [com.google.android.gms], Game package [com.google.android.gms] [CONTEXT service_id=1 ]
+06-06 06:11:17.155  2903  3346 W GetGamesServiceReqFacto: Parsing request with ignored arguments. signInOptionsBundle [Bundle[{com.google.android.gms.signin.internal.serverClientId=null, com.google.android.gms.signin.internal.usePromptModeForAuthCode=true, com.google.android.gms.signin.internal.logSessionId=null, com.google.android.gms.signin.internal.hostedDomain=null, com.google.android.gms.signin.internal.offlineAccessRequested=false, com.google.android.gms.signin.internal.waitForAccessTokenRefresh=false, com.google.android.gms.signin.internal.clientRequestedAccount=Account {name=<<default account>>, type=com.google}, com.google.android.gms.signin.internal.idTokenRequested=false, com.google.android.gms.signin.internal.forceCodeForRefreshToken=false}]], isRetryingSignIn [false], skipWelcomePopup [false], requireGooglePlus [false]
+06-06 06:11:17.155  2903  3346 I GetGamesServiceReqFacto: Replacing request for `games` scope with `games_lite`
+06-06 06:11:17.158  2903  7664 I SignInPerformer-11: Handling request [GetGamesServiceRequest{gamePackageName=com.google.android.gms, gameUid=10132, gamePlayServicesClientLibraryVersion=251833000, sdkVariation=1052947, requestedScopes=[https://www.googleapis.com/auth/games_lite], callingIdentity=CallingIdentity{uid=10132, pid=2903, packageName=com.google.android.gms, playServicesClientLibraryVersion=251833000}, requestedAccount=Optional.absent(), forceResolveAccountKey=null, requestedServiceMode=2, initiatorCategory=1}], isFirstPartyCaller [true] [CONTEXT service_id=1 ]
+06-06 06:11:17.159  2903  7664 I SignInPerformer-11: Successfully brokered first-party unauthenticated GamesService [CONTEXT service_id=1 ]
+06-06 06:11:17.160  2903  7664 I GetGamesServiceV2Op: Successfully brokered GamesService for request flr{gamePackageName=com.google.android.gms, gameUid=10132, gamePlayServicesClientLibraryVersion=251833000, sdkVariation=1052947, requestedScopes=[https://www.googleapis.com/auth/games_lite], callingIdentity=CallingIdentity{uid=10132, pid=2903, packageName=com.google.android.gms, playServicesClientLibraryVersion=251833000}, requestedAccount=Optional.absent(), forceResolveAccountKey=null, requestedServiceMode=2, initiatorCategory=1} [CONTEXT service_id=1 ]
+06-06 06:11:17.160  2903  3346 W PlayGamesServices[UiUtils]: AppVersion: Cannot find the installed destination app.
+06-06 06:11:17.160  2903  3346 W PlayGamesServices[UiUtils]: AppVersionName: Cannot find the installed destination app.
+06-06 06:11:22.190  2903  2903 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+06-06 06:11:26.474  2903  3250 W gle.android.gm: Profile data size exceeds 500000 bytes. It has 605571 bytes.
+06-06 06:11:29.863  5919  5919 I Finsky  : [2] SCH: job service start with id 9384.
+06-06 06:11:29.868  5919  7612 I Finsky  : [640] SCH: Satisfied jobs for 9384 are: 12-1
+06-06 06:11:29.869  5919  7647 I Finsky  : [648] SCH: Job 12-1 starting
+06-06 06:11:29.870  5919  5919 I Finsky  : [2] [ContentSync] job started
+06-06 06:11:29.904  1954  2288 D WifiNl80211Manager: Scan result ready event
+06-06 06:11:29.904  1954  2288 D WifiNative: Scan result ready event
+06-06 06:11:29.944  5919  5919 I Finsky  : [2] App states replicator found 4 unowned apps
+06-06 06:11:29.944  5919  5919 I Finsky  : [2] Completed 0 account content syncs with 0 successful.
+06-06 06:11:29.944  5919  5919 I Finsky  : [2] [ContentSync] Installation state replication succeeded.
+06-06 06:11:29.944  5919  5919 I Finsky  : [2] SCH: jobFinished: 12-1. TimeElapsed: 74ms.
+06-06 06:11:29.949  5919  5970 I Finsky  : [332] SCH: Scheduling phonesky job Id: 1-1337, CT: 1749187448490, Constraints: [{ L: 14399998, D: 46786610, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+06-06 06:11:29.949  5919  5970 I Finsky  : [332] SCH: Scheduling phonesky job Id: 34-91, CT: 1749187453129, Constraints: [{ L: 79199832, D: 1375199832, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+06-06 06:11:29.949  5919  5970 I Finsky  : [332] SCH: Scheduling phonesky job Id: 34-94, CT: 1749187453472, Constraints: [{ L: 604800000, D: 2591999860, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+06-06 06:11:29.951  5919  5955 I Finsky  : [319] SCH: Scheduling 1 system job(s)
+06-06 06:11:29.951  5919  5955 I Finsky  : [319] SCH: Scheduling system job Id: 9392, L: 11558537, D: 43945149, C: false, I: false, N: 1
+06-06 06:11:29.952  5919  7647 I Finsky  : [648] SCH: job service finished with id 9384.
+06-06 06:12:00.009  2195  2195 D KeyguardClockSwitch: Updating clock: 612
+06-06 06:12:07.146  2903  2903 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+06-06 06:12:07.355     0     0 D logd    : logdr: UID=0 GID=0 PID=7672 n tail=0 logMask=99 pid=0 start=0ns timeout=0ns
