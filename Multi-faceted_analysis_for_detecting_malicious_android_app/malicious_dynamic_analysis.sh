@@ -3,8 +3,8 @@
 # === Set Paths ===
 AAPT_PATH="aapt"   # Or full path if not in PATH
 ADB_PATH="adb"
-APK_FOLDER="/Users/anjalipriya/Downloads/malicious_app_detectionUsing_traffic_analysis/malicious_androzoo_apks"
-LOG_FOLDER="/Users/anjalipriya/Downloads/malicious_app_detectionUsing_traffic_analysis/malicious_apk_logcat_logs"
+APK_FOLDER="malicious_androzoo_apks"
+LOG_FOLDER="malicious_apk_logcat_logs"
 
 # === Parameters ===
 MONKEY_EVENTS=300
