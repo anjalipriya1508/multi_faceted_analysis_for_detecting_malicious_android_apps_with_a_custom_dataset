@@ -17,4 +17,4 @@ This hybrid feature dataset supports advanced malware detection research using b
 # Need Help?
 If you have any questions or run into any issues while using the scripts, feel free to open an issue on this repository or drop a message — I'm happy to help!
 
-Alternatively, you can reach out via **[anjali1508priya@gmail.com]** 
+Alternatively, you can reach out via **[anjali1508priya@gmail.com]** or via **https://www.linkedin.com/in/anjali-priya-622241196**
